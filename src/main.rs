@@ -5,7 +5,6 @@ fn main() {
 }
 
 #[cfg(feature = "test_generator")]
-#[allow(dead_code)]
 fn test_generator() {
     // Use some `yield`.
     use std::ops::{GeneratorState, Generator};
